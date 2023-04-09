@@ -304,7 +304,7 @@
   <voice locale="pt_BR" name="br-mlr-dnn" gender="female" type="unit selection" version="5.2">
     <description>A female Portuguese unit selection voice</description>
     <license href="http://festvox.org/cmu_arctic/cmu_arctic/cmu_us_slt_arctic/COPYING"/>
-    <package md5sum="107776c3e0f2306b9c8c20dcfb9b343b" filename="br-mlr-dnn-5.2.zip" size="104627156">
+    <package md5sum="fd4eddfdcd369983816368e6f794b48b" filename="br-mlr-dnn-5.2.zip" size="104627156">
       <location folder="true" href="http://mary.dfki.de/download/5.2/"/>
       <location folder="false" href="https://github.com/FatecSPB/br-mlr-dnn/blob/main/br-mlr-dnn-5.2.zip"/>
     </package>
