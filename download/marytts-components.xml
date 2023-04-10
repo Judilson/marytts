@@ -306,7 +306,7 @@
     <license href="http://festvox.org/cmu_arctic/cmu_arctic/cmu_us_slt_arctic/COPYING"/>
     <package md5sum="4d3e1693289076a30603552e5bfb27c1" filename="br-mlr-dnn-5.2.zip" size="104627156">
       <location folder="true" href="http://mary.dfki.de/download/5.2/"/>
-      <location folder="false" href="https://github.com/FatecSPB/br-mlr-dnn/archive/refs/tags/v5.2.zip"/>
+      <location folder="false" href="https://github.com/FatecSPB/br-mlr-dnn/blob/d5e29f595eabc7db8d3a480b02c31d19ee7ef335/br-mlr-dnn-5.2.zip"/>
     </package>
     <depends language="pt-BR" version="5.2"/>
   </voice>

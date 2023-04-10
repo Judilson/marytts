@@ -519,7 +519,7 @@ public class Request {
 			// The modules we have cannot be combined such that
 			// the outputType can be generated from the inputData type.
 			String message = "No known way of generating output (" + oneOutputType.name() + ") from input("
-					+ oneInputData.getType().name() + "), no processing path through modules.";
+					+ oneInputData.getType().name() + "), no processing path through modules. For locale: "+locale;
 			throw new UnsupportedOperationException(message);
 		}
 		usedModules.addAll(neededModules);
