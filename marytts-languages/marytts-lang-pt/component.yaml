@@ -1,0 +1,33 @@
+# Portuguese language config
+locale: pt_BR
+
+# The Modules
+modules.classes:
+- marytts.language.pt.JTokeniser
+- marytts.language.pt.Preprocess
+- marytts.language.pt.Prosody
+- marytts.modules.SimplePhoneme2AP(pt_BR)
+- marytts.language.pt.PronunciationModel
+- marytts.modules.OpenNLPPosTagger(pt,pt.pos)
+
+featuremanager.classes:
+- marytts.features.FeatureProcessorManager(pt_BR)
+
+# Module settings
+pt_BR:
+  allophoneset: jar:/marytts/language/pt_BR/lexicon/allophones.pt_BR.xml
+  userdict: MARY_BASE/user-dictionaries/userdict-pt_BR.txt
+
+pt:
+  pos:
+    model: jar:/marytts/language/pt/tagger/pt-pos-maxent-1.5.bin
+    punct.regex: ',|\\.|:'
+
+  prosody:
+    paragraphdeclination: true
+    # rules for prediction of ToBI tones
+    tobipredparams: jar:/marytts/language/pt/prosody/tobipredparams_portuguese.xml
+    # rules for accent priorities of pos
+    accentPriorities: jar:/marytts/language/pt/prosody/POSAccentPriorities.pt.properties
+    # copy the word accents to the first accented syllable
+    syllableaccents: true
