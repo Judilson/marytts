@@ -304,7 +304,7 @@
   <voice locale="pt_BR" name="br1" gender="female" type="unit selection" version="5.2">
     <description>A female Portuguese unit selection voice</description>
     <license href="http://festvox.org/cmu_arctic/cmu_arctic/cmu_us_slt_arctic/COPYING"/>
-    <package md5sum="c794f26ae5ee78509f939e5da8179b48" filename="br1.zip" size="101029730">
+    <package md5sum="16e435ce53baca69a52aba2212145cf8" filename="br1.zip" size="101029730">
       <location folder="true" href="http://mary.dfki.de/download/5.2/"/>
       <location folder="false" href="https://github.com/FatecSPB/mbrola_br/archive/refs/tags/v5.2.zip"/>
     </package>
